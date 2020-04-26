@@ -1,0 +1,136 @@
+.business-card-container {
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-size: 100% auto;
+    padding-top: 40px;
+}
+
+.business-card-container .card {
+    text-align: center;
+    height: 400px;
+    width: 500px;
+    background-image: url(../img/cards/card-background.jpg);
+    box-shadow:
+        /* top shadow */
+        0px -10px 10px rgba(0, 0, 0, 0.2),
+        /* bottom shadow */
+        0px 10px 20px rgba(0, 0, 0, 0.4),
+        /* left shadow */
+        -10px 0px 20px rgba(0, 0, 0, 0.4),
+        /*right shadow */
+        10px 0px 20px rgba(0, 0, 0, 0.4),
+        /* inner shadow */
+        inset 1px 1px 20px rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    position: relative;
+    z-index: 0;
+    padding-left: 20px;
+    padding-right: 30px;
+}
+
+.business-card-container .card .gold-text {
+    background: url(../img/cards/gold-texture.jpg);
+    background-clip: text;
+    -webkit-background-clip: text;
+    background-size: cover;
+    color: transparent;
+    text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.1);
+}
+
+.business-card-container .card .silver-text {
+    background: url(../img/cards/silver-texture.jpg);
+    background-clip: text;
+    -webkit-background-clip: text;
+    background-size: cover;
+    color: transparent;
+    font-size: 26px;
+    letter-spacing: 2px;
+    word-spacing: 6px;
+    text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.1);
+}
+
+.card.front{
+    transform: rotate(-10deg);
+    transition: 600ms ease-in-out;
+}
+
+.card.front:hover{
+    transform: rotate(0deg) scale(1.2) translateX(300px);
+    z-index: 1;
+}
+
+.card.back{
+    transform: rotate(20deg) translateY(-50px);
+    transition: 600ms ease-in-out;
+}
+
+.card.back:hover{
+    transform: rotate(0deg) scale(1.2) translateX(-300px);
+    z-index: 1;
+}
+
+.business-card-container .back .icons{
+    margin-top: 90px;
+}
+
+.business-card-container .back .icons i{
+    font-size: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    transition: 200ms ease-in;
+}
+
+.business-card-container .back .icons i:hover{
+    background: url(../img/cards/silver-texture.jpg);
+    background-clip: text;
+    -webkit-background-clip: text;
+    background-size: cover;
+    color: transparent;
+}
+
+.card.back > h1{
+    text-align: left;
+    font-size: 40px;
+}
+
+.card.back .content{
+    text-align: right;
+}
+
+.card.back .content h1,p{
+    text-align: right;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-weight: 900;
+}
+
+.card.back .content p{
+    font-size: 25px;
+    margin-bottom: 60px;
+}
+
+.light {
+  position: absolute;
+  width: 150vw;
+  height: 150vh;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(255,255,255,0.5) 20%,rgba(255,255,255,0) 60%);
+  opacity: 0.4;
+  z-index: 9;
+  pointer-events: none;
+}
+
+.email{
+    text-decoration: none!important;
+}
+
+.email:hover{
+    background: url(../img/cards/silver-texture.jpg);
+    background-clip: text;
+    -webkit-background-clip: text;
+    background-size: cover;
+    color: transparent;
+}

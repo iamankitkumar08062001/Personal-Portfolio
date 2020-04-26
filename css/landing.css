@@ -1,0 +1,224 @@
+@import url("https://fonts.googleapis.com/css?family=UnifrakturCook:700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+
+body {
+    overflow-x: hidden;
+    background-image: url(../img/background.png);
+}
+
+.newspaper {
+    background: #fff8ed;
+    width: 1120px;
+    min-height: 600px;
+    border-radius: 10px;
+    padding: 65px 90px;
+    background: linear-gradient(to bottom,
+            rgba(204, 205, 191, 1) 0%,
+            rgba(226, 222, 210, 1) 20%,
+            rgba(226, 222, 210, 1) 67%,
+            rgba(204, 205, 191, 1) 100%);
+    box-shadow: 0px 3px 20px 0px rgba(0, 0, 0, 0.75);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.header {
+    position: relative;
+    z-index: 1;
+}
+
+.header__banner {
+    position: relative;
+    max-width: calc(100% - 375px);
+    margin: 0 auto;
+    display: block;
+    height: 35px;
+    text-align: center;
+    color: white;
+    background: #1a53ff;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.15) inset, 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+.header__banner__title {
+    font-size: 30px;
+    letter-spacing: 1.5px;
+    display: flex;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    font-weight: 900;
+    color: #e6e6e6;
+}
+
+.header__banner::before,
+.header__banner::after {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    z-index: -1;
+    left: -190px;
+    top: 10px;
+    display: block;
+    width: 200px;
+    height: 0px;
+    color: #e6e6e6;
+    border: 17.5px solid #3366ff;
+    border-right: 10px solid #3366ff;
+    border-bottom-color: #3366ff;
+    border-left-color: transparent;
+}
+
+.header__banner::after {
+    left: auto;
+    right: -190px;
+    border-left: 10px solid #3366ff;
+    border-right: 15px solid transparent;
+}
+
+.header__banner__left,
+.header__banner__right {
+    position: absolute;
+    top: 10px;
+    left: -160px;
+    font-size: 25px;
+    height: 40px;
+}
+
+.header__banner__right {
+    left: auto;
+    right: -160px;
+}
+
+.header__banner__left::after,
+.header__banner__right::after {
+    content: "";
+    z-index: 1;
+    position: absolute;
+    right: -67px;
+    bottom: 5px;
+    height: 0;
+    width: 0;
+    border-top: 10px solid #0039e6;
+    border-left: 37.5px solid transparent;
+}
+
+.header__banner__right::after {
+    left: -67px;
+    bottom: 5px;
+    border-top: 10px solid #0039e6;
+    border-right: 37.5px solid transparent;
+    border-left: none;
+}
+
+
+.header__title {
+    font-family: "UnifrakturCook";
+    font-size: 144px;
+    font-weight: 200;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    color: #333;
+    letter-spacing: 1px;
+}
+
+.header__title span {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%) translateY(50%);
+    bottom: 90px;
+}
+
+.about {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 50% 45%;
+    grid-gap: 5%;
+    margin-top: -80px;
+    padding: 0px;
+    border-bottom: 1px solid #999;
+}
+
+.about-heading {
+    text-transform: uppercase;
+    font-weight: 900;
+    font-family: Impact, "Oswald", sans-serif;
+    font-size: 80px;
+    letter-spacing: 1px;
+    line-height: 0.85;
+    color: #333;
+}
+
+.about .image {
+    position: relative;
+    margin-top: 90px;
+    margin-bottom: 20px;
+    margin-left: 80px;
+    height: 400px;
+    width: 400px;
+}
+
+.about .image img {
+    height: 400px;
+    width: 400px;
+    filter: grayscale(100%);
+    transition: 300ms ease-in-out;
+    position: absolute;
+}
+
+.about .image img:hover {
+    filter: grayscale(0%);
+    transform: scale(1.01);
+}
+
+@media (max-width: 1340px) {
+    .newspaper {
+        transform: scale(0.85) translateY(-100px);
+    }
+}
+
+@media (max-width: 1140px) {
+    .newspaper {
+        transform: scale(0.75) translateY(-300px);
+    }
+}
+
+@media (max-width: 1019px) {
+    .newspaper {
+        transform: scale(0.65) translateY(-500px);
+    }
+}
+
+@media (max-width: 900px) {
+    .newspaper {
+        transform: scale(0.55) translateY(-800px);
+    }
+}
+
+@media (max-width: 769px) {
+    .newspaper {
+        transform: scale(0.45) translateY(-1200px);
+    }
+}
+
+@media (max-width: 620px) {
+    .newspaper {
+        transform: scale(0.35) translateY(-1850px);
+    }
+}
+
+@media (max-width: 480px) {
+    .newspaper {
+        transform: scale(0.25) translateY(-3000px);
+    }
+}
+
+@media (max-width: 340px) {
+    .newspaper {
+        transform: scale(0.20) translateY(-4000px);
+    }
+}
