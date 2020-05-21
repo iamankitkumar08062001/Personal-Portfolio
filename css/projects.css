@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+
 #project{
     padding: 65px 60px;
     width: 1180px;
@@ -222,7 +224,6 @@
     height: 200px;
     margin: 20px;
     box-sizing: border-box;
-    transition: 200ms ease-in-out;
     transform: rotate(0deg);
 }
 
@@ -231,6 +232,7 @@
     height: 200px;
     margin: 20px;
     box-sizing: border-box;
+    transition: 1.1s ease-in-out;
     transform: rotate(360deg);
 }
 
