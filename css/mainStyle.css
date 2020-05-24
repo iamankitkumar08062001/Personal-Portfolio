@@ -1,0 +1,592 @@
+@import url("https://fonts.googleapis.com/css?family=UnifrakturCook:700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+
+body {
+    overflow-x: hidden;
+    background-image: url(../img/background.png);
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+    .newspaper {
+        height: auto;
+        width: 90%;
+        background: #fff8ed;
+        border-radius: 10px;
+        background: linear-gradient(to bottom,
+                rgba(204, 205, 191, 1) 0%,
+                rgba(226, 222, 210, 1) 20%,
+                rgba(226, 222, 210, 1) 67%,
+                rgba(204, 205, 191, 1) 100%);
+        box-shadow: 0px 3px 20px 0px rgba(0, 0, 0, 0.9);
+        margin-left: auto;
+        margin-right: auto;
+        box-sizing: border-box;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        padding: 30px 20px;
+    }
+
+    .part-header {
+        text-transform: uppercase;
+        font-weight: 900;
+        font-family: Impact, "Oswald", sans-serif;
+        font-size: 40px;
+        letter-spacing: 2px;
+        line-height: 0.85;
+        color: #333;
+        position: relative;
+        text-align: center;
+    }
+
+    .header {
+        position: relative;
+        z-index: 1;
+    }
+
+    .header__banner {
+        position: relative;
+        max-width: calc(100% - 375px);
+        margin: 0 auto;
+        display: block;
+        height: 35px;
+        text-align: center;
+        color: white;
+        background: #1a53ff;
+        box-shadow: 0 0 30px rgba(0, 0, 0, 0.15) inset, 0 6px 10px rgba(0, 0, 0, 0.15);
+    }
+
+    .header__banner__title {
+        font-size: 30px;
+        letter-spacing: 1.5px;
+        display: flex;
+        align-self: center;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        font-weight: 900;
+        color: #e6e6e6;
+    }
+
+    .header__banner::before,
+    .header__banner::after {
+        content: "";
+        display: inline-block;
+        position: absolute;
+        z-index: -1;
+        left: -190px;
+        top: 10px;
+        display: block;
+        width: 200px;
+        height: 0px;
+        color: #e6e6e6;
+        border: 17.5px solid #3366ff;
+        border-right: 10px solid #3366ff;
+        border-bottom-color: #3366ff;
+        border-left-color: transparent;
+    }
+
+    .header__banner::after {
+        left: auto;
+        right: -190px;
+        border-left: 10px solid #3366ff;
+        border-right: 15px solid transparent;
+    }
+
+    .header__banner__left,
+    .header__banner__right {
+        position: absolute;
+        top: 10px;
+        left: -160px;
+        font-size: 25px;
+        height: 40px;
+    }
+
+    .header__banner__right {
+        left: auto;
+        right: -160px;
+    }
+
+    .header__banner__left::after,
+    .header__banner__right::after {
+        content: "";
+        z-index: 1;
+        position: absolute;
+        right: -67px;
+        bottom: 5px;
+        height: 0;
+        width: 0;
+        border-top: 10px solid #0039e6;
+        border-left: 37.5px solid transparent;
+    }
+
+    .header__banner__right::after {
+        left: -67px;
+        bottom: 5px;
+        border-top: 10px solid #0039e6;
+        border-right: 37.5px solid transparent;
+        border-left: none;
+    }
+
+
+    .header__title {
+        font-family: "UnifrakturCook";
+        font-size: 144px;
+        font-weight: 200;
+        margin: 0;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        color: #333;
+        letter-spacing: 1px;
+    }
+
+    .header__title span {
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%) translateY(50%);
+        bottom: 90px;
+    }
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+    .newspaper {
+        background: #fff8ed;
+        border-radius: 10px;
+        background: linear-gradient(to bottom,
+                rgba(204, 205, 191, 1) 0%,
+                rgba(226, 222, 210, 1) 20%,
+                rgba(226, 222, 210, 1) 67%,
+                rgba(204, 205, 191, 1) 100%);
+        box-shadow: 0px 3px 20px 0px rgba(0, 0, 0, 0.9);
+        height: 300px;
+        width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+        box-sizing: border-box;
+        height: auto;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        padding: 50px 40px;
+    }
+
+    .part-header {
+        text-transform: uppercase;
+        font-weight: 900;
+        font-family: Impact, "Oswald", sans-serif;
+        font-size: 90px;
+        letter-spacing: 2px;
+        line-height: 0.85;
+        color: #333;
+        position: relative;
+        text-align: center;
+    }
+
+    .header {
+        position: relative;
+        z-index: 1;
+    }
+
+    .header__banner {
+        position: relative;
+        max-width: calc(100% - 375px);
+        margin: 0 auto;
+        display: block;
+        height: 35px;
+        text-align: center;
+        color: white;
+        background: #1a53ff;
+        box-shadow: 0 0 30px rgba(0, 0, 0, 0.15) inset, 0 6px 10px rgba(0, 0, 0, 0.15);
+    }
+
+    .header__banner__title {
+        font-size: 30px;
+        letter-spacing: 1.5px;
+        display: flex;
+        align-self: center;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        font-weight: 900;
+        color: #e6e6e6;
+    }
+
+    .header__banner::before,
+    .header__banner::after {
+        content: "";
+        display: inline-block;
+        position: absolute;
+        z-index: -1;
+        left: -190px;
+        top: 10px;
+        display: block;
+        width: 200px;
+        height: 0px;
+        color: #e6e6e6;
+        border: 17.5px solid #3366ff;
+        border-right: 10px solid #3366ff;
+        border-bottom-color: #3366ff;
+        border-left-color: transparent;
+    }
+
+    .header__banner::after {
+        left: auto;
+        right: -190px;
+        border-left: 10px solid #3366ff;
+        border-right: 15px solid transparent;
+    }
+
+    .header__banner__left,
+    .header__banner__right {
+        position: absolute;
+        top: 10px;
+        left: -160px;
+        font-size: 25px;
+        height: 40px;
+    }
+
+    .header__banner__right {
+        left: auto;
+        right: -160px;
+    }
+
+    .header__banner__left::after,
+    .header__banner__right::after {
+        content: "";
+        z-index: 1;
+        position: absolute;
+        right: -67px;
+        bottom: 5px;
+        height: 0;
+        width: 0;
+        border-top: 10px solid #0039e6;
+        border-left: 37.5px solid transparent;
+    }
+
+    .header__banner__right::after {
+        left: -67px;
+        bottom: 5px;
+        border-top: 10px solid #0039e6;
+        border-right: 37.5px solid transparent;
+        border-left: none;
+    }
+
+
+    .header__title {
+        font-family: "UnifrakturCook";
+        font-size: 144px;
+        font-weight: 200;
+        margin: 0;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        color: #333;
+        letter-spacing: 1px;
+    }
+
+    .header__title span {
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%) translateY(50%);
+        bottom: 90px;
+    }
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+    .newspaper {
+        height: auto;
+        width: 85%;
+        background: #fff8ed;
+        border-radius: 10px;
+        background: linear-gradient(to bottom,
+                rgba(204, 205, 191, 1) 0%,
+                rgba(226, 222, 210, 1) 20%,
+                rgba(226, 222, 210, 1) 67%,
+                rgba(204, 205, 191, 1) 100%);
+        box-shadow: 0px 3px 20px 0px rgba(0, 0, 0, 0.9);
+        margin-left: auto;
+        margin-right: auto;
+        box-sizing: border-box;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        padding: 50px 40px;
+    }
+
+    .part-header {
+        text-transform: uppercase;
+        font-weight: 900;
+        font-family: Impact, "Oswald", sans-serif;
+        font-size: 90px;
+        letter-spacing: 2px;
+        line-height: 0.85;
+        color: #333;
+        position: relative;
+        text-align: center;
+    }
+
+    .header {
+        position: relative;
+        z-index: 1;
+    }
+
+    .header__banner {
+        position: relative;
+        max-width: calc(100% - 375px);
+        margin: 0 auto;
+        display: block;
+        height: 35px;
+        text-align: center;
+        color: white;
+        background: #1a53ff;
+        box-shadow: 0 0 30px rgba(0, 0, 0, 0.15) inset, 0 6px 10px rgba(0, 0, 0, 0.15);
+    }
+
+    .header__banner__title {
+        font-size: 30px;
+        letter-spacing: 1.5px;
+        display: flex;
+        align-self: center;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        font-weight: 900;
+        color: #e6e6e6;
+    }
+
+    .header__banner::before,
+    .header__banner::after {
+        content: "";
+        display: inline-block;
+        position: absolute;
+        z-index: -1;
+        left: -190px;
+        top: 10px;
+        display: block;
+        width: 200px;
+        height: 0px;
+        color: #e6e6e6;
+        border: 17.5px solid #3366ff;
+        border-right: 10px solid #3366ff;
+        border-bottom-color: #3366ff;
+        border-left-color: transparent;
+    }
+
+    .header__banner::after {
+        left: auto;
+        right: -190px;
+        border-left: 10px solid #3366ff;
+        border-right: 15px solid transparent;
+    }
+
+    .header__banner__left,
+    .header__banner__right {
+        position: absolute;
+        top: 10px;
+        left: -160px;
+        font-size: 25px;
+        height: 40px;
+    }
+
+    .header__banner__right {
+        left: auto;
+        right: -160px;
+    }
+
+    .header__banner__left::after,
+    .header__banner__right::after {
+        content: "";
+        z-index: 1;
+        position: absolute;
+        right: -67px;
+        bottom: 5px;
+        height: 0;
+        width: 0;
+        border-top: 10px solid #0039e6;
+        border-left: 37.5px solid transparent;
+    }
+
+    .header__banner__right::after {
+        left: -67px;
+        bottom: 5px;
+        border-top: 10px solid #0039e6;
+        border-right: 37.5px solid transparent;
+        border-left: none;
+    }
+
+
+    .header__title {
+        font-family: "UnifrakturCook";
+        font-size: 144px;
+        font-weight: 200;
+        margin: 0;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        color: #333;
+        letter-spacing: 1px;
+    }
+
+    .header__title span {
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%) translateY(50%);
+        bottom: 90px;
+    }
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+    .newspaper {
+        background: #fff8ed;
+        border-radius: 10px;
+        background: linear-gradient(to bottom,
+                rgba(204, 205, 191, 1) 0%,
+                rgba(226, 222, 210, 1) 20%,
+                rgba(226, 222, 210, 1) 67%,
+                rgba(204, 205, 191, 1) 100%);
+        box-shadow: 0px 3px 20px 0px rgba(0, 0, 0, 0.9);
+        height: 300px;
+        width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+        box-sizing: border-box;
+        height: auto;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        padding: 50px 40px;
+    }
+
+    .part-header {
+        text-transform: uppercase;
+        font-weight: 900;
+        font-family: Impact, "Oswald", sans-serif;
+        font-size: 90px;
+        letter-spacing: 2px;
+        line-height: 0.85;
+        color: #333;
+        position: relative;
+        text-align: center;
+    }
+
+    .header {
+        position: relative;
+        z-index: 1;
+    }
+
+    .header__banner {
+        position: relative;
+        max-width: calc(100% - 375px);
+        margin: 0 auto;
+        display: block;
+        height: 35px;
+        text-align: center;
+        color: white;
+        background: #1a53ff;
+        box-shadow: 0 0 30px rgba(0, 0, 0, 0.15) inset, 0 6px 10px rgba(0, 0, 0, 0.15);
+    }
+
+    .header__banner__title {
+        font-size: 30px;
+        letter-spacing: 1.5px;
+        display: flex;
+        align-self: center;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        font-weight: 900;
+        color: #e6e6e6;
+    }
+
+    .header__banner::before,
+    .header__banner::after {
+        content: "";
+        display: inline-block;
+        position: absolute;
+        z-index: -1;
+        left: -190px;
+        top: 10px;
+        display: block;
+        width: 200px;
+        height: 0px;
+        color: #e6e6e6;
+        border: 17.5px solid #3366ff;
+        border-right: 10px solid #3366ff;
+        border-bottom-color: #3366ff;
+        border-left-color: transparent;
+    }
+
+    .header__banner::after {
+        left: auto;
+        right: -190px;
+        border-left: 10px solid #3366ff;
+        border-right: 15px solid transparent;
+    }
+
+    .header__banner__left,
+    .header__banner__right {
+        position: absolute;
+        top: 10px;
+        left: -160px;
+        font-size: 25px;
+        height: 40px;
+    }
+
+    .header__banner__right {
+        left: auto;
+        right: -160px;
+    }
+
+    .header__banner__left::after,
+    .header__banner__right::after {
+        content: "";
+        z-index: 1;
+        position: absolute;
+        right: -67px;
+        bottom: 5px;
+        height: 0;
+        width: 0;
+        border-top: 10px solid #0039e6;
+        border-left: 37.5px solid transparent;
+    }
+
+    .header__banner__right::after {
+        left: -67px;
+        bottom: 5px;
+        border-top: 10px solid #0039e6;
+        border-right: 37.5px solid transparent;
+        border-left: none;
+    }
+
+
+    .header__title {
+        font-family: "UnifrakturCook";
+        font-size: 144px;
+        font-weight: 200;
+        margin: 0;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        color: #333;
+        letter-spacing: 1px;
+    }
+
+    .header__title span {
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%) translateY(50%);
+        bottom: 90px;
+    }
+
+}
