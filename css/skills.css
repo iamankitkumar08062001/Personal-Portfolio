@@ -65,17 +65,17 @@
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 600px) and (max-width: 767px) {
 
 	.skills {
-		width: auto;
-		padding-left: 40px;
-		padding-right: 50px;
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
 		position: relative;
 		display: grid;
-		grid-template-columns: 300px 300px;
+		grid-template-columns: calc((100% / 2) - 20px) calc((100% / 2) - 20px);
 		grid-template-rows: auto auto auto auto auto;
-		grid-column-gap: 50px;
+		grid-column-gap: 40px;
 		grid-row-gap: 50px;
 		box-sizing: border-box;
 	}
@@ -91,8 +91,8 @@
 	}
 
 	.skills .skill-item img {
-		height: 150px;
-		width: 150px;
+		height: 100px;
+		width: 100px;
 		position: relative;
 		left: 50%;
 		transform: translateX(-50%);
@@ -110,7 +110,7 @@
 	}
 
 	.skills .skill-item .content h1 {
-		font-size: 18px;
+		font-size: 20px;
 		color: #af3f50;
 		font-weight: 900;
 		letter-spacing: 0.5px;
@@ -120,14 +120,16 @@
 	}
 
 	.skills .skill-item .content h3 {
-		font-size: 15px;
+		font-size: 18px;
+		letter-spacing: 1px;
 		margin: 10px;
-		font-family: Impact, "Oswald", sans-serif;
+		font-family: sans-serif;
 	}
 
 	#git {
 		top: 50px;
 	}
+
 
 }
 
