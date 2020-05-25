@@ -1,0 +1,640 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+	.about {
+		display: block;
+		margin-top: -100px;
+		padding: 0px;
+		border-bottom: 1px solid #999;
+	}
+
+	.about-heading {
+		text-transform: uppercase;
+		font-weight: 900;
+		font-family: Impact, "Oswald", sans-serif;
+		font-size: 30px;
+		letter-spacing: 1px;
+		line-height: 0.85;
+		color: #333;
+		position: relative;
+		top: 20px;
+		margin-left: 75px;
+	}
+
+	.about .image {
+		position: relative;
+		margin-top: 90px;
+		margin-bottom: 20px;
+		margin-left: 80px;
+		height: 130px;
+		width: 130px;
+		overflow: hidden;
+	}
+
+	.about .image img {
+		height: 100%;
+		width: 100%;
+		filter: grayscale(100%);
+		transition: 300ms ease-in-out;
+		overflow: hidden;
+	}
+
+	.about .image img:hover {
+		filter: grayscale(0%);
+		transform: scale(1.1) rotate(5deg);
+	}
+	
+	/* BANNER */
+	.header {
+		position: relative;
+		z-index: 1;
+	}
+
+	.header__banner {
+		display: none;
+	}
+
+	.header__banner__left,
+	.header__banner__right {
+		display: none;
+	}
+
+	.header__title {
+		margin-top: 50px;
+		font-family: "UnifrakturCook";
+		font-size: 42px;
+		font-weight: 100;
+		display: flex;
+		justify-content: space-between;
+		width: 100%;
+		color: #333;
+	}
+
+	.header__title span {
+		position: relative;
+		left: 50%;
+		transform: translateX(-50%) translateY(50%);
+		bottom: 90px;
+	}
+
+	/* BANNER END */
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+
+	.about {
+		display: block;
+		margin-top: -100px;
+		padding: 0px;
+		border-bottom: 1px solid #999;
+		text-align: center;
+	}
+
+	.about-heading {
+		text-transform: uppercase;
+		font-weight: 900;
+		font-family: Impact, "Oswald", sans-serif;
+		font-size: 30px;
+		letter-spacing: 1px;
+		line-height: 0.85;
+		color: #333;
+		position: relative;
+		top: 20px;
+	}
+
+	.about .image {
+		position: relative;
+		left: 50%;
+		transform: translateX(-50%);
+		margin-bottom: 20px;
+		height: 200px;
+		width: 200px;
+		overflow: hidden;
+	}
+
+	.about .image img {
+		height: 100%;
+		width: 100%;
+		filter: grayscale(100%);
+		transition: 300ms ease-in-out;
+		overflow: hidden;
+	}
+
+	.about .image img:hover {
+		filter: grayscale(0%);
+		transform: scale(1.1) rotate(5deg);
+	}
+
+	/* BANNER */
+	.header {
+		position: relative;
+		z-index: 1;
+	}
+
+	.header__banner {
+		display: none;
+	}
+
+	.header__title {
+		margin-top: 50px;
+		font-family: "UnifrakturCook";
+		font-size: 42px;
+		font-weight: 100;
+		display: flex;
+		justify-content: space-between;
+		width: 100%;
+		color: #333;
+	}
+
+	.header__title span {
+		position: relative;
+		left: 50%;
+		transform: translateX(-50%) translateY(50%);
+		bottom: 90px;
+	}
+
+	/* BANNER END */
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+	.about {
+		display: block;
+		margin-top: -100px;
+		padding: 0px;
+		border-bottom: 1px solid #999;
+		text-align: center;
+	}
+
+	.about-heading {
+		text-transform: uppercase;
+		font-weight: 900;
+		font-family: Impact, "Oswald", sans-serif;
+		font-size: 30px;
+		letter-spacing: 1px;
+		line-height: 0.85;
+		color: #333;
+		position: relative;
+		top: 20px;
+	}
+
+	.about .image {
+		position: relative;
+		left: 50%;
+		transform: translateX(-50%);
+		margin-bottom: 20px;
+		height: 160px;
+		width: 160px;
+		overflow: hidden;
+	}
+
+	.about .image img {
+		height: 100%;
+		width: 100%;
+		filter: grayscale(100%);
+		transition: 300ms ease-in-out;
+		overflow: hidden;
+	}
+
+	.about .image img:hover {
+		filter: grayscale(0%);
+		transform: scale(1.1) rotate(5deg);
+	}
+
+	/* BANNER */
+	.header {
+		position: relative;
+		z-index: 1;
+	}
+
+	.header__banner {
+		position: relative;
+		max-width: calc(100% - 335px);
+		margin: 0 auto;
+		display: block;
+		height: 75px;
+		text-align: center;
+		color: white;
+		background: #1a53ff;
+		box-shadow: 0 0 30px rgba(0, 0, 0, 0.15) inset, 0 6px 10px rgba(0, 0, 0, 0.15);
+		margin-bottom: 80px;
+	}
+
+	.header__banner__title {
+		font-size: 20px;
+		letter-spacing: 1.5px;
+		display: flex;
+		align-self: center;
+		align-items: center;
+		justify-content: center;
+		height: 100%;
+		font-weight: 900;
+		color: #e6e6e6;
+	}
+
+	.header__banner::before,
+	.header__banner::after {
+		content: "";
+		display: inline-block;
+		position: absolute;
+		z-index: -1;
+		left: -190px;
+		top: 50px;
+		display: block;
+		width: 200px;
+		height: 0px;
+		color: #e6e6e6;
+		border: 17.5px solid #3366ff;
+		border-right: 10px solid #3366ff;
+		border-bottom-color: #3366ff;
+		border-left-color: transparent;
+	}
+
+	.header__banner::after {
+		left: auto;
+		right: -190px;
+		border-left: 10px solid #3366ff;
+		border-right: 15px solid transparent;
+	}
+
+	.header__banner__left,
+	.header__banner__right {
+		position: absolute;
+		top: 48px;
+		left: -160px;
+		font-size: 25px;
+		height: 40px;
+	}
+
+	.header__banner__right {
+		left: auto;
+		right: -162px;
+	}
+
+	.header__banner__left::after,
+	.header__banner__right::after {
+		content: "";
+		z-index: 1;
+		position: absolute;
+		right: -67px;
+		bottom: 5px;
+		height: 0;
+		width: 0;
+		border-top: 10px solid #0039e6;
+		border-left: 37.5px solid transparent;
+	}
+
+	.header__banner__right::after {
+		left: -67px;
+		bottom: 5px;
+		border-top: 10px solid #0039e6;
+		border-right: 37.5px solid transparent;
+		border-left: none;
+	}
+
+	.header__title {
+		margin-top: 50px;
+		font-family: "UnifrakturCook";
+		font-size: 42px;
+		font-weight: 100;
+		display: flex;
+		justify-content: space-between;
+		width: 100%;
+		color: #333;
+	}
+
+	.header__title span {
+		position: relative;
+		left: 50%;
+		transform: translateX(-50%) translateY(50%);
+		bottom: 90px;
+	}
+
+	/* BANNER END */
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+
+	.about {
+		display: grid;
+		grid-template-rows: auto;
+		grid-template-columns: 50% 45%;
+		grid-gap: 5%;
+		margin-top: -80px;
+		padding: 0px;
+		border-bottom: 1px solid #999;
+	}
+
+	.about-heading {
+		text-transform: uppercase;
+		font-weight: 900;
+		font-family: Impact, "Oswald", sans-serif;
+		font-size: 50px;
+		letter-spacing: 1px;
+		line-height: 0.85;
+		color: #333;
+		position: relative;
+		top: 20px;
+	}
+
+	.about .image {
+		position: relative;
+		margin-top: 90px;
+		margin-bottom: 20px;
+		margin-left: 80px;
+		height: 250px;
+		width: 250px;
+		overflow: hidden;
+	}
+
+	.about .image img {
+		height: 100%;
+		width: 100%;
+		filter: grayscale(100%);
+		transition: 300ms ease-in-out;
+		overflow: hidden;
+	}
+
+	.about .image img:hover {
+		filter: grayscale(0%);
+		transform: scale(1.1) rotate(5deg);
+	}
+
+	/* BANNER */
+	.header {
+		position: relative;
+		z-index: 1;
+	}
+
+	.header__banner {
+		position: relative;
+		max-width: calc(100% - 375px);
+		margin: 0 auto;
+		display: block;
+		height: 55px;
+		text-align: center;
+		color: white;
+		background: #1a53ff;
+		box-shadow: 0 0 30px rgba(0, 0, 0, 0.15) inset, 0 6px 10px rgba(0, 0, 0, 0.15);
+		margin-bottom: 40px;
+	}
+
+	.header__banner__title {
+		font-size: 20px;
+		letter-spacing: 1.5px;
+		display: flex;
+		align-self: center;
+		align-items: center;
+		justify-content: center;
+		height: 100%;
+		font-weight: 900;
+		color: #e6e6e6;
+	}
+
+	.header__banner::before,
+	.header__banner::after {
+		content: "";
+		display: inline-block;
+		position: absolute;
+		z-index: -1;
+		left: -190px;
+		top: 30px;
+		display: block;
+		width: 200px;
+		height: 0px;
+		color: #e6e6e6;
+		border: 17.5px solid #3366ff;
+		border-right: 10px solid #3366ff;
+		border-bottom-color: #3366ff;
+		border-left-color: transparent;
+	}
+
+	.header__banner::after {
+		left: auto;
+		right: -190px;
+		border-left: 10px solid #3366ff;
+		border-right: 15px solid transparent;
+	}
+
+	.header__banner__left,
+	.header__banner__right {
+		position: absolute;
+		top: 29px;
+		left: -160px;
+		font-size: 25px;
+		height: 40px;
+	}
+
+	.header__banner__right {
+		left: auto;
+		right: -161px;
+	}
+
+	.header__banner__left::after,
+	.header__banner__right::after {
+		content: "";
+		z-index: 1;
+		position: absolute;
+		right: -67px;
+		bottom: 5px;
+		height: 0;
+		width: 0;
+		border-top: 10px solid #0039e6;
+		border-left: 37.5px solid transparent;
+	}
+
+	.header__banner__right::after {
+		left: -67px;
+		bottom: 5px;
+		border-top: 10px solid #0039e6;
+		border-right: 37.5px solid transparent;
+		border-left: none;
+	}
+
+	.header__title {
+		font-family: "UnifrakturCook";
+		font-size: 100px;
+		font-weight: 200;
+		margin: 0;
+		display: flex;
+		justify-content: space-between;
+		width: 100%;
+		color: #333;
+		letter-spacing: 1px;
+	}
+
+	.header__title span {
+		position: relative;
+		left: 50%;
+		transform: translateX(-50%) translateY(50%);
+		bottom: 90px;
+	}
+
+	/* BANNER END */
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+	/* BANNER */
+	.header {
+		position: relative;
+		z-index: 1;
+	}
+
+	.header__banner {
+		position: relative;
+		max-width: calc(100% - 375px);
+		margin: 0 auto;
+		display: block;
+		height: 35px;
+		text-align: center;
+		color: white;
+		background: #1a53ff;
+		box-shadow: 0 0 30px rgba(0, 0, 0, 0.15) inset, 0 6px 10px rgba(0, 0, 0, 0.15);
+	}
+
+	.header__banner__title {
+		font-size: 30px;
+		letter-spacing: 1.5px;
+		display: flex;
+		align-self: center;
+		align-items: center;
+		justify-content: center;
+		height: 100%;
+		font-weight: 900;
+		color: #e6e6e6;
+	}
+
+	.header__banner::before,
+	.header__banner::after {
+		content: "";
+		display: inline-block;
+		position: absolute;
+		z-index: -1;
+		left: -190px;
+		top: 10px;
+		display: block;
+		width: 200px;
+		height: 0px;
+		color: #e6e6e6;
+		border: 17.5px solid #3366ff;
+		border-right: 10px solid #3366ff;
+		border-bottom-color: #3366ff;
+		border-left-color: transparent;
+	}
+
+	.header__banner::after {
+		left: auto;
+		right: -190px;
+		border-left: 10px solid #3366ff;
+		border-right: 15px solid transparent;
+	}
+
+	.header__banner__left,
+	.header__banner__right {
+		position: absolute;
+		top: 10px;
+		left: -160px;
+		font-size: 25px;
+		height: 40px;
+	}
+
+	.header__banner__right {
+		left: auto;
+		right: -160px;
+	}
+
+	.header__banner__left::after,
+	.header__banner__right::after {
+		content: "";
+		z-index: 1;
+		position: absolute;
+		right: -67px;
+		bottom: 5px;
+		height: 0;
+		width: 0;
+		border-top: 10px solid #0039e6;
+		border-left: 37.5px solid transparent;
+	}
+
+	.header__banner__right::after {
+		left: -67px;
+		bottom: 5px;
+		border-top: 10px solid #0039e6;
+		border-right: 37.5px solid transparent;
+		border-left: none;
+	}
+
+	.header__title {
+		font-family: "UnifrakturCook";
+		font-size: 144px;
+		font-weight: 200;
+		margin: 0;
+		display: flex;
+		justify-content: space-between;
+		width: 100%;
+		color: #333;
+		letter-spacing: 1px;
+	}
+
+	.header__title span {
+		position: relative;
+		left: 50%;
+		transform: translateX(-50%) translateY(50%);
+		bottom: 90px;
+	}
+
+	/* BANNER END */
+
+	.about {
+		display: grid;
+		grid-template-rows: auto;
+		grid-template-columns: 50% 45%;
+		grid-gap: 5%;
+		margin-top: -80px;
+		padding: 0px;
+		border-bottom: 1px solid #999;
+	}
+
+	.about-heading {
+		text-transform: uppercase;
+		font-weight: 900;
+		font-family: Impact, "Oswald", sans-serif;
+		font-size: 80px;
+		letter-spacing: 1px;
+		line-height: 0.85;
+		color: #333;
+	}
+
+	.about .image {
+		position: relative;
+		margin-top: 90px;
+		margin-bottom: 20px;
+		margin-left: 80px;
+		height: 400px;
+		width: 400px;
+		overflow: hidden;
+	}
+
+	.about .image img {
+		height: 100%;
+		width: 100%;
+		filter: grayscale(100%);
+		transition: 300ms ease-in-out;
+		overflow: hidden;
+	}
+
+	.about .image img:hover {
+		filter: grayscale(0%);
+		transform: scale(1.1) rotate(5deg);
+	}
+
+}

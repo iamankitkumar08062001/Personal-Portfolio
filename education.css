@@ -1,0 +1,472 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+	.education .entry {
+		box-sizing: border-box;
+		text-align: center;
+		margin-bottom: 30px;
+		border: 1px solid #333;
+		padding: 10px;
+	}
+
+	.education .entry img {
+		height: 130px;
+		width: 130px;
+		border-radius: 50%;
+		position: relative;
+		filter: grayscale(100%);
+		transition: 200ms ease-in;
+	}
+
+	.education .entry img:hover {
+		filter: grayscale(0%);
+	}
+
+	.education .entry .content {
+		text-align: center;
+		box-sizing: border-box;
+		position: relative;
+	}
+
+	.education .entry .content h1 {
+		font-size: 16px;
+	}
+
+	.education .entry .content h1,
+	.education .entry .content h3 {
+		font-family: sans-serif;
+	}
+
+	.education .entry .content table .serial-num {
+		width: 10%;
+	}
+
+	.education .entry .content h3 {
+		font-size: 10px;
+	}
+
+	.education .entry .content table {
+		width: 100%;
+		border-collapse: collapse;
+	}
+
+	.education .entry .content table th {
+		text-transform: uppercase;
+		background-color: black;
+		color: white;
+	}
+
+	.education .entry .content table tr {
+		text-align: center;
+	}
+
+	.education .entry .content table th,
+	.education .entry .content table td {
+		border: 1px solid #333;
+		padding-top: 5px;
+		padding-bottom: 5px;
+		box-sizing: border-box;
+		font-size: 13px;
+	}
+
+	.education .references h3 {
+		font-size: 15px;
+	}
+
+	.education .references h4 {
+		font-size: 13px;
+	}
+
+	.education .references h3,
+	.education .references h4 {
+		color: red;
+		margin-top: 6px;
+		margin-bottom: 5px;
+	}
+
+	#afs-cn {
+		height: 80px;
+		width: 240px;
+		border-radius: 0px;
+	}
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+
+	.education .entry {
+		box-sizing: border-box;
+		text-align: center;
+		margin-bottom: 30px;
+		border: 1px solid #333;
+		padding: 10px;
+	}
+
+	.education .entry img {
+		height: 130px;
+		width: 130px;
+		border-radius: 50%;
+		position: relative;
+		filter: grayscale(100%);
+		transition: 200ms ease-in;
+	}
+
+	.education .entry img:hover {
+		filter: grayscale(0%);
+	}
+
+	.education .entry .content {
+		text-align: center;
+		box-sizing: border-box;
+		position: relative;
+	}
+
+	.education .entry .content h1 {
+		font-size: 16px;
+	}
+
+	.education .entry .content h1,
+	.education .entry .content h3 {
+		font-family: sans-serif;
+	}
+
+	.education .entry .content table .serial-num {
+		width: 10%;
+	}
+
+	.education .entry .content h3 {
+		font-size: 10px;
+	}
+
+	.education .entry .content table {
+		width: 100%;
+		border-collapse: collapse;
+	}
+
+	.education .entry .content table th {
+		text-transform: uppercase;
+		background-color: black;
+		color: white;
+	}
+
+	.education .entry .content table tr {
+		text-align: center;
+	}
+
+	.education .entry .content table th,
+	.education .entry .content table td {
+		border: 1px solid #333;
+		padding-top: 5px;
+		padding-bottom: 5px;
+		box-sizing: border-box;
+		font-size: 13px;
+	}
+
+	.education .references h3 {
+		font-size: 15px;
+	}
+
+	.education .references h4 {
+		font-size: 13px;
+	}
+
+	.education .references h3,
+	.education .references h4 {
+		color: red;
+		margin-top: 6px;
+		margin-bottom: 5px;
+	}
+
+	#afs-cn {
+		height: 80px;
+		width: 240px;
+		border-radius: 0px;
+	}
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+	.education .entry {
+		box-sizing: border-box;
+		text-align: center;
+		margin-bottom: 30px;
+		border: 1px solid #333;
+		padding: 10px;
+	}
+
+	.education .entry img {
+		height: 130px;
+		width: 130px;
+		border-radius: 50%;
+		position: relative;
+		filter: grayscale(100%);
+		transition: 200ms ease-in;
+	}
+
+	.education .entry img:hover {
+		filter: grayscale(0%);
+	}
+
+	.education .entry .content {
+		text-align: center;
+		box-sizing: border-box;
+		position: relative;
+	}
+
+	.education .entry .content h1 {
+		font-size: 16px;
+	}
+
+	.education .entry .content h1,
+	.education .entry .content h3 {
+		font-family: sans-serif;
+	}
+
+	.education .entry .content table .serial-num {
+		width: 10%;
+	}
+
+	.education .entry .content h3 {
+		font-size: 10px;
+	}
+
+	.education .entry .content table {
+		width: 100%;
+		border-collapse: collapse;
+	}
+
+	.education .entry .content table th {
+		text-transform: uppercase;
+		background-color: black;
+		color: white;
+	}
+
+	.education .entry .content table tr {
+		text-align: center;
+	}
+
+	.education .entry .content table th,
+	.education .entry .content table td {
+		border: 1px solid #333;
+		padding-top: 5px;
+		padding-bottom: 5px;
+		box-sizing: border-box;
+		font-size: 13px;
+	}
+
+	.education .references h3 {
+		font-size: 15px;
+	}
+
+	.education .references h4 {
+		font-size: 13px;
+	}
+
+	.education .references h3,
+	.education .references h4 {
+		color: red;
+		margin-top: 6px;
+		margin-bottom: 5px;
+	}
+
+	#afs-cn {
+		height: 80px;
+		width: 280px;
+		border-radius: 0px;
+	}
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+
+	.education .entry {
+		display: grid;
+		grid-template-rows: auto;
+		grid-template-columns: 100px 100px calc(100% - 200px);
+		padding: 30px 50px;
+		box-sizing: border-box;
+		grid-row-gap: 50px;
+		border: 1px solid #333;
+		margin-bottom: 10px;
+	}
+
+	.education .entry img {
+		grid-column-start: 1;
+		grid-column-end: 3;
+		height: 200px;
+		width: 200px;
+		border-radius: 50%;
+		position: relative;
+		top: 50%;
+		transform: translateY(-50%);
+		filter: grayscale(100%);
+		transition: 200ms ease-in;
+	}
+
+	.education .entry img:hover {
+		filter: grayscale(0%);
+	}
+
+	.education .entry .content {
+		grid-column-start: 3;
+		grid-column-end: 4;
+		text-align: center;
+		box-sizing: border-box;
+		padding: 10px 30px;
+		position: relative;
+		top: 50%;
+		transform: translateY(-50%);
+	}
+
+	.education .entry .content h1 {
+		font-size: 20px;
+	}
+
+	.education .entry .content h1,
+	.education .entry .content h3 {
+		font-family: sans-serif;
+	}
+
+	.education .entry .content table .serial-num {
+		width: 10%;
+	}
+
+	.education .entry .content h3 {
+		font-size: 13px;
+	}
+
+	.education .entry .content table {
+		width: 100%;
+		border-collapse: collapse;
+	}
+
+	.education .entry .content table th {
+		text-transform: uppercase;
+		background-color: black;
+		color: white;
+	}
+
+	.education .entry .content table tr {
+		text-align: center;
+	}
+
+	.education .entry .content table th,
+	.education .entry .content table td {
+		border: 1px solid #333;
+		padding-top: 5px;
+		padding-bottom: 5px;
+		box-sizing: border-box;
+		font-size: 13px;
+	}
+
+	.education .references h3,
+	.education .references h4 {
+		color: red;
+		margin-top: 6px;
+		margin-bottom: 5px;
+	}
+
+	#afs-cn {
+		height: 50px;
+		width: 100%;
+		border-radius: 0px;
+	}
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+	.education .entry {
+		display: grid;
+		grid-template-rows: auto;
+		grid-template-columns: 200px 100px 50px calc(100% - 350px);
+		padding: 30px 50px;
+		box-sizing: border-box;
+		grid-row-gap: 50px;
+		border: 1px solid #333;
+		margin-bottom: 15px;
+	}
+
+	.education .entry img {
+		grid-column-start: 1;
+		grid-column-end: 4;
+		height: 350px;
+		width: 350px;
+		border-radius: 50%;
+		position: relative;
+		top: 50%;
+		transform: translateY(-50%);
+		filter: grayscale(100%);
+		transition: 200ms ease-in;
+	}
+
+	.education .entry img:hover {
+		filter: grayscale(0%);
+	}
+
+	.education .entry .content {
+		grid-column-start: 4;
+		grid-column-end: 5;
+		text-align: center;
+		box-sizing: border-box;
+		padding: 10px 30px;
+		position: relative;
+		top: 50%;
+		transform: translateY(-50%);
+	}
+
+	.education .entry .content h1,
+	.education .entry .content h3 {
+		font-family: sans-serif;
+	}
+
+	.education .entry .content table .serial-num {
+		width: 10%;
+	}
+
+	.education .entry .content h3 {
+		font-size: 15px;
+	}
+
+	.education .entry .content table {
+		width: 100%;
+		border-collapse: collapse;
+	}
+
+	.education .entry .content table th {
+		text-transform: uppercase;
+		background-color: black;
+		color: white;
+	}
+
+	.education .entry .content table tr {
+		text-align: center;
+	}
+
+	.education .entry .content table th,
+	.education .entry .content table td {
+		border: 1px solid #333;
+		padding-top: 5px;
+		padding-bottom: 5px;
+		box-sizing: border-box;
+	}
+
+	.education .references h3,
+	.education .references h4 {
+		color: red;
+		margin-top: 6px;
+		margin-bottom: 5px;
+	}
+
+	#afs-cn {
+		height: 100px;
+		width: 100%;
+		border-radius: 0px;
+	}
+
+}
