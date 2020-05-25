@@ -163,6 +163,20 @@
 		font-weight: 600;
 	}
 
+	.light {
+		height: 70%;
+		width: 70%;
+		position: absolute;
+		border-radius: 50%;
+		background: radial-gradient(circle, rgba(255, 255, 255, 0.5) 20%, rgba(255, 255, 255, 0) 60%);
+		pointer-events: none;
+		z-index: 400;
+		left: 50%;
+		transform: translateX(-50%) translateY(-10%);
+		opacity: 0.4;
+		filter: blur(100px);
+	}
+
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -284,11 +298,16 @@
 		font-weight: 600;
 	}
 
-	/*.light {
-  position: absolute;
-  border-radius: 50%;
-  background: radial-gradient(circle, rgba(255,255,255,0.5) 20%,rgba(255,255,255,0) 60%);
-  pointer-events: none;
-}*/
+	.light {
+		height: 70%;
+		width: 70%;
+		position: absolute;
+		border-radius: 50%;
+		background: radial-gradient(circle, rgba(255, 255, 255, 0.5) 20%, rgba(255, 255, 255, 0) 60%);
+		pointer-events: none;
+		z-index: 400;
+		opacity: 0.4;
+		filter: blur(100px);
+	}
 
 }
