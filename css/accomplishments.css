@@ -2,12 +2,12 @@
 @media only screen and (max-width: 600px) {
 
 	#accomplishments .part-header.main {
-		font-size: 40px;
+		font-size: 30px;
 	}
 
 	.accomplishments .entry .part-header.entry-header {
 		position: relative;
-		font-size: 30px;
+		font-size: 25px;
 	}
 
 	.accomplishments .entry {
