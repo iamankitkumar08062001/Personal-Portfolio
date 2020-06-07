@@ -539,6 +539,7 @@
 		width: 100%;
 		font-weight: 600;
 		text-transform: uppercase;
+		padding-top: 10px;
 	}
 
 	.introduction .tv-buttons a:active {
