@@ -1,1 +1,313 @@
-@media only screen and (max-width:600px){.business-card-container{display:none}.introduction .tv-buttons .item7.desktop{display:none}}@media only screen and (min-width:600px) and (max-width:767px){.introduction .tv-buttons .item7.desktop{display:none}.business-card-container{display:none}}@media only screen and (min-width:768px) and (max-width:991px){.business-card-container{display:none}.introduction .tv-buttons .item7.desktop{display:none}}@media only screen and (min-width:992px) and (max-width:1199px){.business-card-container{width:100%;height:800px;display:block;background-size:100% auto;padding-top:40px}.business-card-container .card{text-align:center;height:300px;width:400px;background-image:url(../img/cards/card-background.jpg);box-shadow:0 -10px 10px rgba(0,0,0,.2),0 10px 20px rgba(0,0,0,.4),-10px 0 20px rgba(0,0,0,.4),10px 0 20px rgba(0,0,0,.4),inset 1px 1px 20px rgba(0,0,0,.4);border-radius:10px;position:relative;z-index:0;padding-left:20px;padding-right:30px}.business-card-container .card .gold-text{background:url(../img/cards/gold-texture.jpg);background-clip:text;-webkit-background-clip:text;background-size:cover;color:transparent;text-shadow:-1px -1px 1px rgba(0,0,0,.1)}.business-card-container .card .silver-text{background:url(../img/cards/silver-texture.jpg);background-clip:text;-webkit-background-clip:text;background-size:cover;color:transparent;font-size:20px;letter-spacing:2px;word-spacing:6px;text-shadow:-1px -1px 1px rgba(0,0,0,.1)}.card.front{transform:rotate(-10deg);transition:.6s ease-in-out;position:relative;left:100px}.card.front:hover{transform:rotate(0) scale(1.2) translateX(100px);z-index:1}.card.back{transform:rotate(20deg) translateY(-50px);transition:.6s ease-in-out;position:relative;left:40%;top:100px;margin-bottom:50px;padding-top:50px}.card.back:hover{transform:rotate(0) scale(1.2) translateX(-50px);z-index:1}.business-card-container .back .icons{margin-top:90px}.business-card-container .back .icons i{font-size:40px;margin-left:20px;margin-right:20px;transition:.2s ease-in;margin-bottom:30px}.business-card-container .back .icons i:hover{background:url(../img/cards/silver-texture.jpg);background-clip:text;-webkit-background-clip:text;background-size:cover;color:transparent}.card.back>h1{text-align:center;font-size:30px;font-weight:900;margin-top:10px}.card.back .content{text-align:right}.card.back .content h1{margin-top:10px;margin-bottom:10px}.card.back .content p{font-size:16px;margin-top:5px;margin-bottom:5px;font-family:sans-serif;font-weight:600}.light{height:70%;width:70%;position:absolute;border-radius:50%;background:radial-gradient(circle,rgba(255,255,255,.5) 20%,rgba(255,255,255,0) 60%);pointer-events:none;z-index:400;left:50%;transform:translateX(-50%) translateY(-10%);opacity:.4;filter:blur(100px)}}@media only screen and (min-width:1200px){.business-card-container{width:100%;height:600px;display:flex;justify-content:space-evenly;align-items:center;background-size:100% auto;padding-top:60px}.business-card-container .card{text-align:center;height:400px;width:500px;background-image:url(../img/cards/card-background.jpg);box-shadow:0 -10px 10px rgba(0,0,0,.2),0 10px 20px rgba(0,0,0,.4),-10px 0 20px rgba(0,0,0,.4),10px 0 20px rgba(0,0,0,.4),inset 1px 1px 20px rgba(0,0,0,.4);border-radius:10px;position:relative;z-index:0;padding-left:20px;padding-right:30px}.business-card-container .card .gold-text{background:url(../img/cards/gold-texture.jpg);background-clip:text;-webkit-background-clip:text;background-size:cover;color:transparent;text-shadow:-1px -1px 1px rgba(0,0,0,.1)}.business-card-container .card .silver-text{background:url(../img/cards/silver-texture.jpg);background-clip:text;-webkit-background-clip:text;background-size:cover;color:transparent;font-size:26px;letter-spacing:2px;word-spacing:6px;text-shadow:-1px -1px 1px rgba(0,0,0,.1)}.card.front{transform:rotate(-10deg);transition:.6s ease-in-out}.card.front:hover{transform:rotate(0) scale(1.2) translateX(50px);z-index:1}.card.back{transform:rotate(20deg) translateY(-50px);transition:.6s ease-in-out}.card.back:hover{transform:rotate(0) scale(1.2) translateX(-50px);z-index:1}.business-card-container .back .icons{margin-top:90px}.business-card-container .back .icons i{font-size:50px;margin-left:20px;margin-right:20px;transition:.2s ease-in}.business-card-container .back .icons i:hover{background:url(../img/cards/silver-texture.jpg);background-clip:text;-webkit-background-clip:text;background-size:cover;color:transparent}.card.back>h1{text-align:center;font-size:40px;font-weight:900}.card.back .content{text-align:right}.card.back .content h1{margin-top:10px;margin-bottom:10px}.card.back .content p{font-size:20px;margin-top:5px;margin-bottom:5px;font-family:sans-serif;font-weight:600}.light{height:70%;width:70%;position:absolute;border-radius:50%;background:radial-gradient(circle,rgba(255,255,255,.5) 20%,rgba(255,255,255,0) 60%);pointer-events:none;z-index:400;opacity:.4;filter:blur(100px)}}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+	.business-card-container {
+		display: none;
+	}
+
+	.introduction .tv-buttons .item7.desktop {
+		display: none;
+	}
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+
+	.introduction .tv-buttons .item7.desktop {
+		display: none;
+	}
+
+	.business-card-container {
+		display: none;
+	}
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+	.business-card-container {
+		display: none;
+	}
+
+	.introduction .tv-buttons .item7.desktop {
+		display: none;
+	}
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+
+	.business-card-container {
+		width: 100%;
+		height: 800px;
+		display: block;
+		background-size: 100% auto;
+		padding-top: 40px;
+	}
+
+	.business-card-container .card {
+		text-align: center;
+		height: 300px;
+		width: 400px;
+		background-image: url(../img/cards/card-background.jpg);
+		box-shadow:
+			/* top shadow */
+			0px -10px 10px rgba(0, 0, 0, 0.2),
+			/* bottom shadow */
+			0px 10px 20px rgba(0, 0, 0, 0.4),
+			/* left shadow */
+			-10px 0px 20px rgba(0, 0, 0, 0.4),
+			/*right shadow */
+			10px 0px 20px rgba(0, 0, 0, 0.4),
+			/* inner shadow */
+			inset 1px 1px 20px rgba(0, 0, 0, 0.4);
+		border-radius: 10px;
+		position: relative;
+		z-index: 0;
+		padding-left: 20px;
+		padding-right: 30px;
+	}
+
+	.business-card-container .card .gold-text {
+		background: url(../img/cards/gold-texture.jpg);
+		background-clip: text;
+		-webkit-background-clip: text;
+		background-size: cover;
+		color: transparent;
+		text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.1);
+	}
+
+	.business-card-container .card .silver-text {
+		background: url(../img/cards/silver-texture.jpg);
+		background-clip: text;
+		-webkit-background-clip: text;
+		background-size: cover;
+		color: transparent;
+		font-size: 20px;
+		letter-spacing: 2px;
+		word-spacing: 6px;
+		text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.1);
+	}
+
+	.card.front {
+		transform: rotate(-10deg);
+		transition: 600ms ease-in-out;
+		position: relative;
+		left: 100px;
+	}
+
+	.card.front:hover {
+		transform: rotate(0deg) scale(1.2) translateX(100px);
+		z-index: 1;
+	}
+
+	.card.back {
+		transform: rotate(20deg) translateY(-50px);
+		transition: 600ms ease-in-out;
+		position: relative;
+		left: 40%;
+		top: 100px;
+		margin-bottom: 50px;
+		padding-top: 50px;
+	}
+
+	.card.back:hover {
+		transform: rotate(0deg) scale(1.2) translateX(-50px);
+		z-index: 1;
+	}
+
+	.business-card-container .back .icons {
+		margin-top: 90px;
+	}
+
+	.business-card-container .back .icons i {
+		font-size: 40px;
+		margin-left: 20px;
+		margin-right: 20px;
+		transition: 200ms ease-in;
+		margin-bottom: 30px;
+	}
+
+	.business-card-container .back .icons i:hover {
+		background: url(../img/cards/silver-texture.jpg);
+		background-clip: text;
+		-webkit-background-clip: text;
+		background-size: cover;
+		color: transparent;
+	}
+
+	.card.back > h1 {
+		text-align: center;
+		font-size: 30px;
+		font-weight: 900;
+		margin-top: 10px;
+	}
+
+	.card.back .content {
+		text-align: right;
+	}
+
+	.card.back .content h1 {
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+
+	.card.back .content p {
+		font-size: 16px;
+		margin-top: 5px;
+		margin-bottom: 5px;
+		font-family: sans-serif;
+		font-weight: 600;
+	}
+
+	.light {
+		height: 70%;
+		width: 70%;
+		position: absolute;
+		border-radius: 50%;
+		background: radial-gradient(circle, rgba(255, 255, 255, 0.5) 20%, rgba(255, 255, 255, 0) 60%);
+		pointer-events: none;
+		z-index: 400;
+		left: 50%;
+		transform: translateX(-50%) translateY(-10%);
+		opacity: 0.4;
+		filter: blur(100px);
+	}
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+	.business-card-container {
+		width: 100%;
+		height: 600px;
+		display: flex;
+		justify-content: space-evenly;
+		align-items: center;
+		background-size: 100% auto;
+		padding-top: 60px;
+	}
+
+	.business-card-container .card {
+		text-align: center;
+		height: 400px;
+		width: 500px;
+		background-image: url(../img/cards/card-background.jpg);
+		box-shadow:
+			/* top shadow */
+			0px -10px 10px rgba(0, 0, 0, 0.2),
+			/* bottom shadow */
+			0px 10px 20px rgba(0, 0, 0, 0.4),
+			/* left shadow */
+			-10px 0px 20px rgba(0, 0, 0, 0.4),
+			/*right shadow */
+			10px 0px 20px rgba(0, 0, 0, 0.4),
+			/* inner shadow */
+			inset 1px 1px 20px rgba(0, 0, 0, 0.4);
+		border-radius: 10px;
+		position: relative;
+		z-index: 0;
+		padding-left: 20px;
+		padding-right: 30px;
+	}
+
+	.business-card-container .card .gold-text {
+		background: url(../img/cards/gold-texture.jpg);
+		background-clip: text;
+		-webkit-background-clip: text;
+		background-size: cover;
+		color: transparent;
+		text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.1);
+	}
+
+	.business-card-container .card .silver-text {
+		background: url(../img/cards/silver-texture.jpg);
+		background-clip: text;
+		-webkit-background-clip: text;
+		background-size: cover;
+		color: transparent;
+		font-size: 26px;
+		letter-spacing: 2px;
+		word-spacing: 6px;
+		text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.1);
+	}
+
+	.card.front {
+		transform: rotate(-10deg);
+		transition: 600ms ease-in-out;
+	}
+
+	.card.front:hover {
+		transform: rotate(0deg) scale(1.2) translateX(50px);
+		z-index: 1;
+	}
+
+	.card.back {
+		transform: rotate(20deg) translateY(-50px);
+		transition: 600ms ease-in-out;
+	}
+
+	.card.back:hover {
+		transform: rotate(0deg) scale(1.2) translateX(-50px);
+		z-index: 1;
+	}
+
+	.business-card-container .back .icons {
+		margin-top: 90px;
+	}
+
+	.business-card-container .back .icons i {
+		font-size: 50px;
+		margin-left: 20px;
+		margin-right: 20px;
+		transition: 200ms ease-in;
+	}
+
+	.business-card-container .back .icons i:hover {
+		background: url(../img/cards/silver-texture.jpg);
+		background-clip: text;
+		-webkit-background-clip: text;
+		background-size: cover;
+		color: transparent;
+	}
+
+	.card.back > h1 {
+		text-align: center;
+		font-size: 40px;
+		font-weight: 900;
+	}
+
+	.card.back .content {
+		text-align: right;
+	}
+
+	.card.back .content h1 {
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+
+	.card.back .content p {
+		font-size: 20px;
+		margin-top: 5px;
+		margin-bottom: 5px;
+		font-family: sans-serif;
+		font-weight: 600;
+	}
+
+	.light {
+		height: 70%;
+		width: 70%;
+		position: absolute;
+		border-radius: 50%;
+		background: radial-gradient(circle, rgba(255, 255, 255, 0.5) 20%, rgba(255, 255, 255, 0) 60%);
+		pointer-events: none;
+		z-index: 400;
+		opacity: 0.4;
+		filter: blur(100px);
+	}
+
+}
