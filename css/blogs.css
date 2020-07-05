@@ -1,0 +1,398 @@
+@import url('https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap');
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+    #blog {
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        box-sizing: border-box;
+        display: block;
+    } 
+
+    .blog-Wrapper {
+        display: block;
+        width: 100%;
+    }
+
+    .blog {
+        font-family: "Reenie Beanie",arial,sans-serif;
+        display: block;
+        color: #000;
+        height: 250px;
+        width: 300px;
+        padding: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        box-shadow: 5px 5px 7px rgba(33,33,33,.7);
+        transition: all .15s linear;
+        box-sizing: border-box;
+        text-align: center;
+        cursor: pointer;
+        border: 0.5px solid black;
+    }
+
+    .blog h1 {
+        font-weight: 900;
+        font-size: 30px;
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
+
+    .blog p {
+        font-size: 23px;
+        font-weight: 700;
+    }
+
+    .blog h2 {
+        font-weight: 900;
+        font-size: 20px;
+        text-align: left;
+        margin-bottom: 0px;
+    }
+
+    .blog:hover {
+        transform: rotate(0deg) scale(1.05)!important;
+        box-shadow: 10px 10px 7px rgba(0,0,0,.7);
+    }
+
+    .blogHeader {
+        background-color: rgb(204, 255, 204);
+        width: 300px;
+        margin-bottom: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        box-sizing: border-box;
+        font-family: "Reenie Beanie",arial,sans-serif;
+    
+        font-size: 30px;
+        font-weight: 700;
+    }
+
+    .blogHeader h1 {
+        padding-top: 3px;
+        padding-bottom: 3px;
+        margin: 0px;
+    }
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 601px) and (max-width: 767px) {
+
+    #blog {
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        box-sizing: border-box;
+    } 
+
+    .blog-Wrapper {
+        display: block;
+        width: 100%;
+    }
+
+    .blog {
+        font-family: "Reenie Beanie",arial,sans-serif;
+        color: #000;
+        height: 200px;
+        width: 200px;
+        padding: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        box-shadow: 5px 5px 7px rgba(33,33,33,.7);
+        transition: all .15s linear;
+        box-sizing: border-box;
+        text-align: center;
+        cursor: pointer;
+        border: 0.5px solid black;
+    }
+
+    .blog h1 {
+        font-weight: 900;
+        font-size: 22px;
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
+
+    .blog p {
+        font-size: 17px;
+        font-weight: 600;
+    }
+
+    .blog h2 {
+        font-weight: 900;
+        font-size: 20px;
+        text-align: left;
+        margin-bottom: 0px;
+    }
+
+    .blog:hover {
+        transform: rotate(0deg) scale(1.05)!important;
+        box-shadow: 10px 10px 7px rgba(0,0,0,.7);
+    }
+
+    .blogHeader {
+        background-color: rgb(204, 255, 204);
+        width: 300px;
+        margin-bottom: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        box-sizing: border-box;
+        font-family: "Reenie Beanie",arial,sans-serif;
+    
+        font-size: 30px;
+        font-weight: 700;
+    }
+
+    .blogHeader h1 {
+        padding-top: 3px;
+        padding-bottom: 3px;
+        margin: 0px;
+    }
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 991px){
+
+    #blog {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 20px;
+        padding-right: 30px;
+        text-align: center;
+        box-sizing: border-box;
+        margin-left: auto;
+        margin-right: auto;
+        width: 750px;
+    } 
+
+    .blog-Wrapper {
+        display: grid;
+        grid-template-columns: 250px 250px 250px;
+        column-gap: 5px;
+        width: 100%;
+    }
+
+    .blog {
+        font-family: "Reenie Beanie",arial,sans-serif;
+        color: #000;
+        height: 200px;
+        width: 200px;
+        padding: 10px;
+        box-shadow: 5px 5px 7px rgba(33,33,33,.7);
+        transition: all .15s linear;
+        box-sizing: border-box;
+        text-align: center;
+        cursor: pointer;
+        border: 0.5px solid black;
+    }
+
+    .blog h1 {
+        font-weight: 900;
+        font-size: 22px;
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
+
+    .blog p {
+        font-size: 17px;
+    }
+
+    .blog h2 {
+        font-weight: 900;
+        font-size: 20px;
+        text-align: left;
+        margin-bottom: 0px;
+    }
+
+    .blog:hover {
+        transform: rotate(0deg) scale(1.05)!important;
+        box-shadow: 10px 10px 7px rgba(0,0,0,.7);
+    }
+
+    .blogHeader {
+        background-color: rgb(204, 255, 204);
+        width: 500px;
+        margin-bottom: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        box-sizing: border-box;
+        font-family: "Reenie Beanie",arial,sans-serif;
+    
+        font-size: 30px;
+        font-weight: 700;
+    }
+
+    .blogHeader h1 {
+        padding-top: 3px;
+        padding-bottom: 3px;
+        margin: 0px;
+    }
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+
+    #blog {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 50px;
+        padding-right: 30px;
+        text-align: center;
+        box-sizing: border-box;
+    } 
+
+    .blog-Wrapper {
+        display: grid;
+        grid-template-columns: 300px 300px 300px;
+        column-gap: 20px;
+        width: 100%;
+    }
+
+    .blog {
+        font-family: "Reenie Beanie",arial,sans-serif;
+        color: #000;
+        height: 250px;
+        width: 250px;
+        padding: 10px;
+        box-shadow: 5px 5px 7px rgba(33,33,33,.7);
+        transition: all .15s linear;
+        box-sizing: border-box;
+        text-align: center;
+        cursor: pointer;
+        border: 0.5px solid black;
+    }
+
+    .blog h1 {
+        font-weight: 900;
+        font-size: 30px;
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
+
+    .blog p {
+        font-size: 25px;
+    }
+
+    .blog h2 {
+        font-weight: 900;
+        font-size: 20px;
+        text-align: left;
+        margin-bottom: 0px;
+    }
+
+    .blog:hover {
+        transform: rotate(0deg) scale(1.05)!important;
+        box-shadow: 10px 10px 7px rgba(0,0,0,.7);
+    }
+
+    .blogHeader {
+        background-color: rgb(204, 255, 204);
+        width: 500px;
+        margin-bottom: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        box-sizing: border-box;
+        font-family: "Reenie Beanie",arial,sans-serif;
+    
+        font-size: 30px;
+        font-weight: 700;
+    }
+
+    .blogHeader h1 {
+        padding-top: 3px;
+        padding-bottom: 3px;
+        margin: 0px;
+    }
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+    #blog {
+        padding: 20px 50px;
+        text-align: center;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    } 
+
+    .blog-Wrapper {
+        display: grid;
+        grid-template-columns: 350px 350px 350px 350px;
+        column-gap: 20px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .blog {
+        font-family: "Reenie Beanie",arial,sans-serif;
+        color: #000;
+        height: 300px;
+        width: 300px;
+        padding: 10px;
+        box-shadow: 5px 5px 7px rgba(33,33,33,.7);
+        transition: all .15s linear;
+        box-sizing: border-box;
+        text-align: center;
+        cursor: pointer;
+        border: 0.5px solid black;
+    }
+
+    .blog h1 {
+        font-weight: 900;
+        font-size: 30px;
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
+
+    .blog p {
+        font-size: 25px;
+    }
+
+    .blog h2 {
+        font-weight: 900;
+        font-size: 20px;
+        text-align: left;
+        margin-bottom: 0px;
+    }
+
+    .blog:hover {
+        transform: rotate(0deg) scale(1.1)!important;
+        box-shadow: 10px 10px 7px rgba(0,0,0,.7);
+    }
+
+    .blogHeader {
+        background-color: rgb(204, 255, 204);
+        width: 500px;
+        margin-bottom: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        box-sizing: border-box;
+        font-family: "Reenie Beanie",arial,sans-serif;
+    
+        font-size: 30px;
+        font-weight: 700;
+    }
+
+    .blogHeader h1 {
+        padding-top: 3px;
+        padding-bottom: 3px;
+        margin: 0px;
+    }
+
+}
