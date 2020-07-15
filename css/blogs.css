@@ -20,7 +20,7 @@
         font-family: "Reenie Beanie",arial,sans-serif;
         display: block;
         color: #000;
-        height: 250px;
+        height: auto;
         width: 300px;
         padding: 10px;
         margin-left: auto;
@@ -99,7 +99,7 @@
     .blog {
         font-family: "Reenie Beanie",arial,sans-serif;
         color: #000;
-        height: 200px;
+        height: auto;
         width: 200px;
         padding: 10px;
         margin-left: auto;
@@ -185,7 +185,7 @@
     .blog {
         font-family: "Reenie Beanie",arial,sans-serif;
         color: #000;
-        height: 200px;
+        height: auto;
         width: 200px;
         padding: 10px;
         box-shadow: 5px 5px 7px rgba(33,33,33,.7);
@@ -263,7 +263,7 @@
     .blog {
         font-family: "Reenie Beanie",arial,sans-serif;
         color: #000;
-        height: 250px;
+        height: auto;
         width: 250px;
         padding: 10px;
         box-shadow: 5px 5px 7px rgba(33,33,33,.7);
@@ -332,8 +332,9 @@
 
     .blog-Wrapper {
         display: grid;
-        grid-template-columns: 350px 350px 350px 350px;
+        grid-template-columns: 330px 330px 330px 330px;
         column-gap: 20px;
+        row-gap: 30px;
         width: 100%;
         box-sizing: border-box;
     }
@@ -341,7 +342,7 @@
     .blog {
         font-family: "Reenie Beanie",arial,sans-serif;
         color: #000;
-        height: 300px;
+        height: auto;
         width: 300px;
         padding: 10px;
         box-shadow: 5px 5px 7px rgba(33,33,33,.7);
@@ -360,7 +361,7 @@
     }
 
     .blog p {
-        font-size: 25px;
+        font-size: 22px;
     }
 
     .blog h2 {
@@ -376,7 +377,7 @@
     }
 
     .blogHeader {
-        background-color: rgb(204, 255, 204);
+        background-color: #FFC15E;
         width: 500px;
         margin-bottom: 50px;
         margin-left: auto;
@@ -384,7 +385,6 @@
         text-align: center;
         box-sizing: border-box;
         font-family: "Reenie Beanie",arial,sans-serif;
-    
         font-size: 30px;
         font-weight: 700;
     }
