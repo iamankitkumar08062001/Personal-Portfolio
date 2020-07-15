@@ -174,11 +174,13 @@
 
 	.introduction .tv-buttons .item5 {
 		background-color: #8AA61D;
+		font-size: 14px;
 		box-shadow: 0px 4px 0px #677c16, 0px 4px 20px #000000;
 	}
 
 	.introduction .tv-buttons .item6 {
 		background-color: #E02829;
+		font-size: 13px;
 		box-shadow: 0px 4px 0px #a51f20, 0px 4px 20px #000000;
 	}
 
@@ -379,6 +381,7 @@
 
 	.introduction .tv-buttons .item6 {
 		background-color: #E02829;
+		font-size: 13px;
 		box-shadow: 0px 4px 0px #a51f20, 0px 4px 20px #000000;
 	}
 
@@ -772,6 +775,7 @@
 
 	.introduction .tv-buttons .item6 {
 		background-color: #E02829;
+		font-size: 14px;
 		box-shadow: 0px 8px 0px #a51f20, 0px 8px 20px #000000;
 	}
 
@@ -967,6 +971,7 @@
 
 	.introduction .tv-buttons .item6 {
 		background-color: #E02829;
+		font-size: 20px;
 		box-shadow: 0px 8px 0px #a51f20, 0px 8px 20px #000000;
 	}
 
@@ -1163,6 +1168,7 @@
 
 	.introduction .tv-buttons .item6 {
 		background-color: #E02829;
+		font-size: 20px;
 		box-shadow: 0px 8px 0px #a51f20, 0px 8px 20px #000000;
 	}
 
