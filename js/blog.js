@@ -54,7 +54,7 @@
 
     var backgroundColors = ["rgb(255, 190, 11)","rgb(239, 111, 108)","rgb(12, 164, 165)","rgb(132, 195, 24)"];
 
-    var i,temp,title,descriptionPara,date,randNum,tempLink;
+    var i,temp,title,descriptionPara,date,randNum;
 
     for(i = 0; i<content.length ; i++) {
         //Creation Stage
@@ -78,15 +78,14 @@
         temp.appendChild(title);
         temp.appendChild(descriptionPara);
         temp.appendChild(date);
-        //Insertion into wrapper div
-        temp.classList.add("blog");
-        blogWrapper.appendChild(temp);
         //Adding Event Listener
-        tempLink = content[i].link;
+        let tempLink = content[i].link;
         temp.addEventListener("click",function() {
             window.open(tempLink);
         });
-
+        //Insertion into wrapper div
+        temp.classList.add("blog");
+        blogWrapper.appendChild(temp);
     }
 
 })();
