@@ -6,6 +6,15 @@
     var blogWrapper = document.querySelector("#blog .blog-wrapper");
 
     var content = [{
+        heading: "Learn JavaScript - Part 1",
+        description: "A JavaScript tutorial aimed at absolute beginners. Introduces why JavaScript is used and its significance with expalaination of JavaScript Data Types.",
+        link: "https://medium.com/web-for-you/learn-javascript-part-1-60fb912a44a9",
+        date: {
+            dd: 04,
+            month: 08,
+            year: 2020
+        }
+    },{
         heading: "The New CORONA Way Of Life",
         description: "During the pandemic, technology is what keeps us still together and functional in an increasingly disconnected and chaotic world and this growth may have a long-lasting impact on a post-COVID world. I have discussed about the same and new technology trends.",
         link: "https://iiitg-blogs.com/2020/07/13/the-curriculum-vitae-the-cv/7/",
